@@ -13,7 +13,7 @@ function App() {
       </Route>
     ),
     {
-      basename:"/interactiveRatingComponent"
+      basename:"/https://ayeshalatif1.github.io/interactiveRatingComponent/"
     }
 
   );
