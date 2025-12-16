@@ -25,8 +25,8 @@ An interactive rating component where user can select any one rating. After clic
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ayeshalatif1/interactiveRatingComponent)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/ayeshalatif1/interactiveRatingComponent)
+- Live Site URL: [Live Site URL](https://your-live-site-url.com)
 
 ## My process
 
