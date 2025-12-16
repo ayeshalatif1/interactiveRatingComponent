@@ -25,7 +25,7 @@ An interactive rating component where user can select any one rating. After clic
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ayeshalatif1/interactiveRatingComponent)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -41,8 +41,11 @@ An interactive rating component where user can select any one rating. After clic
 ### What I learned
 
 --How to define and manage multiple routes in a React application using React Router
+
 --How to use the useNavigate hook to programmatically navigate between pages for a smooth user experience
+
 --How to use React state to store and update dynamic values (such as user ratings)
+
 --How to pass data between different routes/components using navigation state
 
 ## Author
