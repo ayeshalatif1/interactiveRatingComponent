@@ -11,7 +11,10 @@ function App() {
         <Route path='/' element={<InputRating />} />
         <Route path='/thankyou' element={<ThankYou />} />
       </Route>
-    )
+    ),
+    {
+      basename:"/interactiveRatingComponent"
+    }
 
   );
 
