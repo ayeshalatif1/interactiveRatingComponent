@@ -1,0 +1,93 @@
+body {
+    color: white;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    background-color: var(--grey-900);
+    width: 30%;
+    padding: 2em 2em;
+    border-radius: 1.5em;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--submitBtn-white);
+    background-color: rgba(18, 20, 23, 0.2);
+    background-color: hsla(216, 71%, 77%, 0.2);
+    border: none;
+    cursor: pointer;
+}
+
+.rating p {
+    color: var(--grey-500);
+    font-size: 1rem;
+}
+
+.rating h3 {
+    color: var(--submitBtn-White);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: var(--small-Font);
+}
+
+.rating .question {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.submit {
+    width: 100%;
+    background-color: var(--submitBtn-Orange);
+    font-weight: bold;
+    color: var(--grey-950);
+    padding: 1em;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: var(--submitBtn-White);
+}
+
+.buttons button:hover{
+    background-color: var(--submitBtn-Orange);
+    color: black;
+}
+.click {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* tablet */
+@media (min-width:701px) and (max-width:1024px) {
+    .rating {
+        width: 60%;
+    }
+}
+
+@media (min-width:521px) and (max-width:700px) {
+    .rating {
+        width: 70%;
+    }
+}
+
+/* phone */
+@media (max-width:520px) {
+    .rating {
+        width: 90%;
+    }
+
+}

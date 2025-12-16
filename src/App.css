@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* primary */
+  --submitBtn-Orange: hsl(25, 97%, 53%);
+  /* neutral */
+  --submitBtn-White: hsl(0, 100%, 100%);
+  --grey-500: hsl(217, 12%, 63%);
+  --grey-900: hsl(213, 19%, 18%);
+  --grey-950: hsl(216, 12%, 8%);
+  /* font sizes */
+  --small-Font: 400;
+  --large-Font: 700;
+  --paragraph-Size: 15px;
+    /* family */
+    --overpass-Font: "Overpass", sans-serif;
+}
+
+main{
+  background-color: var(--grey-950);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--overpass-Font);
+  max-width: 100vw;
+}
